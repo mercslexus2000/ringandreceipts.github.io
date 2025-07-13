@@ -1,132 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />  <!-- Ansichtsfenster für Mobilgeräte -->
-  <title>Ring &amp; Receipts – Telecom, Tech &amp; Gadget Concierge</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-
-  <!-- HERO -->
-  <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16 sm:py-24 px-4 sm:px-6 flex flex-col items-center text-center gap-6">
-    <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight max-w-3xl">
-      Ring &amp; Receipts
-    </h1>
-    <p class="text-lg sm:text-xl md:text-2xl max-w-2xl">
-      Your personal telecom, tech <strong>&amp;</strong> gadget concierge—because waiting on hold is so <em>Season 1</em>.
-    </p>
-    <a href="#contact" class="bg-white text-indigo-700 font-semibold px-6 py-4 rounded-full shadow-lg hover:scale-105 transition transform">
-      Book a Free Consult
-    </a>
-    <span class="italic text-sm opacity-80">Ihr persönlicher Tech- &amp; Telekom-Betreuer</span>
-  </section>
-
-  <!-- VALUE PROPS -->
-  <section class="max-w-6xl mx-auto py-16 px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-    <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center text-center gap-3">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2a4 4 0 014-4h4m0 0V7m0 4l-4-4-4 4" />
-      </svg>
-      <h3 class="text-lg font-semibold">Bravo-Level Service</h3>
-      <p>No drama—just VIP treatment across phones, laptops, wearables, and smart-home gear.</p>
-    </div>
-    <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center text-center gap-3">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h1l3 3m0 0l3-3m-3 3V4m13 6h-1l-3-3m0 0l-3 3m3-3v10" />
-      </svg>
-      <h3 class="text-lg font-semibold">Smart Savings</h3>
-      <p>Right-size carrier plans <em>and</em> device purchases—pay only for what truly fits.</p>
-    </div>
-    <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center text-center gap-3">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 16v-2m8-6h2M4 12H2m15.535-5.535l1.414-1.414M6.05 17.95l-1.414 1.414m0-13.657l1.414 1.414M17.95 17.95l-1.414 1.414" />
-      </svg>
-      <h3 class="text-lg font-semibold">Device Matchmaking</h3>
-      <p>Mac or Windows? Android or iPhone? I test-drive it all so you pick perfectly.</p>
-    </div>
-    <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center text-center gap-3">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3" />
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19a7 7 0 110-14 7 7 0 010 14z" />
-      </svg>
-      <h3 class="text-lg font-semibold">Time Back in Your Day</h3>
-      <p>Skip hold music and support queues—one text to me solves it all.</p>
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section class="bg-gray-100 py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-10">Core Concierge Services</h2>
-    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 text-sm leading-relaxed">
-      <ul class="space-y-3 list-disc list-inside">
-        <li><strong>Telecom Plan Optimization</strong> – carrier selection, eSIM setups, roaming prep.</li>
-        <li><strong>Device &amp; Gadget Curation</strong> – unbiased picks for phones, laptops, smart-home, wearables.</li>
-        <li><strong>Setup &amp; Migration</strong> – data transfers, cloud sync, security hardening.</li>
-      </ul>
-      <ul class="space-y-3 list-disc list-inside">
-        <li><strong>Smart-Home &amp; Wi-Fi Tuning</strong> – UniFi networks, IoT, backup power.</li>
-        <li><strong>Travel Tech Concierge</strong> – SIM cards, hotspot rentals, offline-map prep.</li>
-        <li><strong>Ongoing White-Glove Support</strong> – 24/7 text line, warranty claims, upgrade planning.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- HOW IT WORKS -->
-  <section class="py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-10">How It Works</h2>
-    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="flex flex-col items-center text-center gap-2">
-        <span class="text-5xl font-extrabold text-indigo-600">1</span>
-        <h3 class="font-semibold">We Chat</h3>
-        <p>Tell me your tech wish-list, budget, and pain points.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ring & Receipts – Telecom, Tech & Gadget Concierge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- HERO -->
+    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-24 px-6 flex flex-col items-center text-center gap-6">
+      <!-- Logo inside soft circle -->
+      <div class="inline-flex items-center justify-center rounded-full bg-white/25 p-5 backdrop-blur-sm">
+        <img src="https://ringandreceipts.cc/ring_receipts_logo_conceptB.png" alt="Ring & Receipts logo" class="h-20 w-20 md:h-24 md:w-24" />
       </div>
-      <div class="flex flex-col items-center text-center gap-2">
-        <span class="text-5xl font-extrabold text-indigo-600">2</span>
-        <h3 class="font-semibold">I Curate &amp; Optimize</h3>
-        <p>Get a personalized plan + gear lineup, purchased and configured for you.</p>
+
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight max-w-3xl">Ring & Receipts</h1>
+      <p class="text-xl md:text-2xl max-w-2xl">Your personal telecom, tech <strong>&</strong> gadget concierge—because waiting on hold is so <em>Season 1</em>.</p>
+      <a href="#contact" class="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-full shadow-lg hover:scale-105 transition-transform">Book a Free Consult</a>
+      <span class="italic text-sm opacity-80">Ihr persönlicher Tech- &amp; Telekom-Betreuer</span>
+    </section>
+
+    <!-- VALUE PROPS -->
+    <section class="max-w-6xl mx-auto py-16 px-6 grid gap-8 md:grid-cols-4">
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center text-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2a4 4 0 014-4h4m0 0V7m0 4l-4-4-4 4" /></svg>
+        <h3 class="text-lg font-semibold">Bravo‑Level Service</h3>
+        <p>No drama—just VIP treatment across phones, laptops, wearables & smart‑home gear.</p>
       </div>
-      <div class="flex flex-col items-center text-center gap-2">
-        <span class="text-5xl font-extrabold text-indigo-600">3</span>
-        <h3 class="font-semibold">You Relax</h3>
-        <p>One tidy invoice and ongoing concierge support—zero tech drama.</p>
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center text-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h1l3 3m0 0l3-3m-3 3V4m13 6h-1l-3-3m0 0l-3 3m3-3v10" /></svg>
+        <h3 class="text-lg font-semibold">Smart Savings</h3>
+        <p>Right‑size carrier plans <em>and</em> device purchases—pay only what truly fits.</p>
       </div>
-    </div>
-  </section>
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center text-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 16v-2m8-6h2M4 12H2m15.535-5.535l1.414-1.414M6.05 17.95l-1.414 1.414m0-13.657l1.414 1.414M17.95 17.95l-1.414 1.414" /></svg>
+        <h3 class="text-lg font-semibold">Device Matchmaking</h3>
+        <p>Mac or Windows? Android or iPhone? I test‑drive it all so you pick perfectly.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col items-center text-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19a7 7 0 110-14 7 7 0 010 14z" /></svg>
+        <h3 class="text-lg font-semibold">Time Back</h3>
+        <p>Skip hold music—one text to me fixes it all.</p>
+      </div>
+    </section>
 
-  <!-- ABOUT -->
-  <section class="max-w-4xl mx-auto py-16 px-6 flex flex-col md:flex-row items-center gap-8">
-    <img
-      src="https://ringandreceipts.cc/image.png"
-      alt="Cameron portrait"
-      class="w-32 h-32 md:w-56 md:h-56 rounded-full shadow-lg object-cover"
-/>
-    <div>
-      <h2 class="text-3xl font-bold mb-4">Hi, I’m Cameron 👋</h2>
-      <p class="mb-4">Early-adopter, platform-agnostic tinkerer (Mac, Windows, Android, iOS, Google Home—you name it). I’ve spent a decade wrangling corporate telecom and testing every gadget under the sun so my clients don’t have to. Think of me as your personal <em>genius bar + travel SIM guru + smart-home fixer</em>—with a Bravo-worthy flair.</p>
-      <p class="font-semibold">Ready to level-up your tech life?</p>
-    </div>
-  </section>
+    <!-- SERVICES -->
+    <section class="bg-gray-100 py-16 px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Core Concierge Services</h2>
+      <div class="max-w-5xl mx-auto grid gap-10 text-sm leading-relaxed md:grid-cols-2">
+        <ul class="space-y-3 list-disc list-inside">
+          <li><strong>Telecom Plan Optimization</strong> – carrier selection, eSIM setups, roaming prep.</li>
+          <li><strong>Device & Gadget Curation</strong> – unbiased picks for phones, laptops, smart‑home, wearables.</li>
+          <li><strong>Setup & Migration</strong> – data transfers, cloud sync, security hardening.</li>
+        </ul>
+        <ul class="space-y-3 list-disc list-inside">
+          <li><strong>Smart‑Home & Wi‑Fi Tuning</strong> – UniFi networks, IoT, backup power.</li>
+          <li><strong>Travel Tech Concierge</strong> – SIM cards, hotspot rentals, offline‑map prep.</li>
+          <li><strong>Ongoing White‑Glove Support</strong> – 24/7 text line, warranty claims, upgrade planning.</li>
+        </ul>
+      </div>
+    </section>
 
-  <!-- DISCLAIMER -->
-  <section class="bg-white py-10 px-6 border-t">
-    <div class="max-w-4xl mx-auto text-sm text-gray-600 space-y-3">
-      <p><strong>Ring &amp; Receipts is an independent tech-consulting firm.</strong> We advise and manage on your behalf. Carrier and hardware costs are passed through at cost; concierge fees cover expertise, sourcing, and support—not resale of service.</p>
-    </div>
-  </section>
+    <!-- HOW IT WORKS -->
+    <section class="py-16 px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">How It Works</h2>
+      <div class="max-w-4xl mx-auto grid gap-8 md:grid-cols-3">
+        <div class="flex flex-col items-center text-center gap-2"><span class="text-5xl font-extrabold text-indigo-600">1</span><h3 class="font-semibold">We Chat</h3><p>Tell me your tech wish‑list, budget & pain points.</p></div>
+        <div class="flex flex-col items-center text-center gap-2"><span class="text-5xl font-extrabold text-indigo-600">2</span><h3 class="font-semibold">I Curate & Optimize</h3><p>Receive a personalized plan & gear lineup, purchased and configured for you.</p></div>
+        <div class="flex flex-col items-center text-center gap-2"><span class="text-5xl font-extrabold text-indigo-600">3</span><h3 class="font-semibold">You Relax</h3><p>One tidy invoice + ongoing concierge support—zero tech drama.</p></div>
+      </div>
+    </section>
 
-  <!-- CTA -->
-  <section id="contact" class="bg-indigo-600 text-white py-16 flex flex-col items-center gap-6 text-center px-6">
-    <h2 class="text-3xl font-bold">Let’s make tech chores vanish.</h2>
-    <p>Schedule your complimentary consult and ditch the support drama.</p>
-    <a href="mailto:hello@ringandreceipts.cc" class="bg-white text-indigo-700 font-semibold px-8 py-3 rounded-full shadow-lg hover:scale-105 transition transform">
-      Email Me Now
-    </a>
-  </section>
+    <!-- ABOUT -->
+    <section class="max-w-4xl mx-auto py-16 px-6 flex flex-col gap-8 md:flex-row md:items-center">
+      <img src="https://ringandreceipts.cc/image.png" alt="Cameron portrait" class="h-60 w-60 md:h-72 md:w-72 object-cover rounded-full shadow-lg" />
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Hi, I’m Cameron 👋</h2>
+        <p class="mb-4">Early‑adopter, platform‑agnostic tinkerer (Mac, Windows, Android, iOS, Google Home—you name it). I’ve spent a decade wrangling corporate telecom and testing every gadget under the sun so my clients don’t have to. Think of me as your personal <em>genius bar + travel SIM guru + smart‑home fixer</em>—with a Bravo‑worthy flair.</p>
+        <p class="font-semibold">Ready for fewer bills—and zero drama?</p>
+      </div>
+    </section>
 
-  <footer class="text-center text-sm py-8 text-gray-500">
-    © 2025 Ring &amp; Receipts, LLC • All rights reserved.
-  </footer>
+    <!-- DISCLAIMER -->
+    <section class="bg-white py-10 px-6 border-t">
+      <div class="max-w-4xl mx-auto text-sm text-gray-600 space-y-3">
+        <p><strong>Ring & Receipts is an independent tech‑consulting firm.</strong> We advise and manage on your behalf. Carrier and hardware costs are passed through at cost; concierge fees cover expertise, sourcing, and support—not resale of service.</p>
+      </div>
+    </section>
 
-</body>
-</html>
+    <!-- CTA -->
+    <section id="contact" class="bg-indigo-600 text-white py-16 px-6 flex flex-col items-center gap-6 text-center">
+      <h2 class="text-3xl font-bold">Let’s make tech chores vanish.</h
